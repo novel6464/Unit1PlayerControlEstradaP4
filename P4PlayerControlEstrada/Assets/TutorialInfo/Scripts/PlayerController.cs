@@ -7,8 +7,8 @@ public class PlayerController : MonoBehaviour
     {
         
     }
-    private float speed = 1.0f;
-    private float turnspeed = 1.0f;
+    private float speed = 25.0f;
+    private float turnspeed = 25.0f;
     private float horizontalInput;
     private float fowardInput;
     
