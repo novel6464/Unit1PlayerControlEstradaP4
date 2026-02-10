@@ -687,6 +687,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 825415029}
+  offset: {x: 0, y: 4, z: 2}
 --- !u!1 &673814960
 GameObject:
   m_ObjectHideFlags: 0
@@ -1044,18 +1045,6 @@ MonoBehaviour:
   speed: 1
   rotationSpeed: 50
   verticalInput: 0
---- !u!114 &825415037
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 825415029}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9db7ab793b87db44b96a33f7a5ce5cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &899755176
 GameObject:
   m_ObjectHideFlags: 0
@@ -1391,9 +1380,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100002, guid: af29f0ea7e5403641b3b244ede69c374, type: 3}
       insertIndex: -1
       addedObject: {fileID: 825415031}
-    - targetCorrespondingSourceObject: {fileID: 100002, guid: af29f0ea7e5403641b3b244ede69c374, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 825415037}
   m_SourcePrefab: {fileID: 100100000, guid: af29f0ea7e5403641b3b244ede69c374, type: 3}
 --- !u!1 &1295456286
 GameObject:
